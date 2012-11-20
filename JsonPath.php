@@ -6,7 +6,7 @@
  * Licensed under the MIT (MIT-LICENSE.txt) licence.
  */
 
-namespace Goessner;
+namespace Goessner\JsonPath;
 
 class JsonPath
 {
