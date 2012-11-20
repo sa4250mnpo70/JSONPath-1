@@ -6,7 +6,7 @@
  * Licensed under the MIT (MIT-LICENSE.txt) licence.
  */
 
-namespace Goessner\JsonPath;
+namespace Goessner;
 
 class JsonPath
 {
@@ -16,7 +16,7 @@ class JsonPath
     var $result = array();
     var $subx = array();
 
-    public function jsonPath($obj, $expr, $args = null)
+    public function query($obj, $expr, $args = null)
     {
         $this->resultType = ($args ? $args['resultType'] : "VALUE");
         $x = $this->normalize($expr);
